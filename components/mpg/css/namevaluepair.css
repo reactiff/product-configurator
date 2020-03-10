@@ -1,0 +1,20 @@
+/* namevaluepair.css */
+
+.mpg-name-value-pair {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+.mpg-name-value-pair > * {
+    padding: 0 5px;
+}
+
+.mpg-name-value-pair > *:first-child {
+    font-weight: 600;
+    text-align: right;
+}
+.mpg-name-value-pair > *:last-child {
+    /* background-color: white; */
+    /* border-bottom: thin solid #eee; */
+}

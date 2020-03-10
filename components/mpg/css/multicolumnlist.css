@@ -1,0 +1,22 @@
+/* multicolumnlist.css */
+.mpg-multicolummn-list {
+
+    column-count: 2;
+
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+
+    column-rule: 1px solid #eff5f7;
+
+    column-span: all;
+
+    column-width: 100px;
+    column-fill: balance;
+}
+
+.mpg-multicolummn-list > * {
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}

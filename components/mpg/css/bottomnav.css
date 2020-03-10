@@ -1,0 +1,103 @@
+.mpg-bottom-nav {
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.mpg-bottom-nav .nav-item {
+    background-color: #000;
+    flex-grow: 1;
+}
+
+.mpg-bottom-nav .nav-item .nav-link {
+    border-radius: 0;
+    padding: 10px 0 25px 0;
+    font-size: 0.675rem;
+
+}
+
+.mpg-bottom-nav .nav-item .nav-link .svg-inline--fa {
+    color: rgba(128,128,128,0.5);
+}
+
+.mpg-bottom-nav .nav-item .nav-link.active .svg-inline--fa {
+    color: rgba(255,255,255,1);
+}
+
+.mpg-bottom-nav .nav-item .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.mpg-bottom-nav .nav-item .nav-link.active {
+    background-color: #7c5241;
+
+}
+
+
+
+.mpg-bottom-nav-menu {
+
+    
+    padding-top: 50px;
+    position: fixed;
+    z-index: 19998;
+    
+    min-width: 50vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    
+    background-color: rgba(114, 72, 55, 1);
+    color: white;
+
+    /* dark mode #2f3031; */
+    padding: 0px;
+    box-shadow: 5px -10px 10px rgba(0,0,0,0.5);
+
+    
+    /* text-align: center; */
+}
+.mpg-bottom-nav-menu .menu-icon{
+    width: 20px;
+    text-align: center;
+}
+.mpg-bottom-nav-menu > button  {
+    text-transform: uppercase;
+}
+
+.mpg-bottom-nav-menu .svg-inline--fa {
+    color: white;
+}
+
+.mpg-bottom-nav-menu .menu-header {
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    opacity: 0.1;
+    width: 250px;
+    /* height: 222px; */
+}
+.mpg-bottom-nav-menu .menu-header img {
+    width: 100px;
+}
+
+.mpg-bottom-nav-menu .menu-footer {
+    position: absolute;
+    padding: 5px 5px 19px;
+    width: 100%;
+    background-color: white;
+    text-align: right;
+    opacity: 0.1;
+    bottom: 0px;
+}
+
+
+@media all and (display-mode: standalone) {
+    /* CSS rules if app is running standalone */
+}
+
+@media not all and (display-mode: standalone) {
+    /* CSS rules if app is NOT running standalone */
+}

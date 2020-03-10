@@ -1,0 +1,177 @@
+/* profilelayout.css */
+.content-section {
+    /* padding-top: 15px; */
+    border-radius: 10px;
+    position: relative;
+    /* padding-bottom: 30px; */
+}
+    @media only screen and (min-width: 768px) {
+        .content-section {
+            min-height: calc(100vh);
+        }
+    }
+
+.content-section h2 {
+    /* padding: 10px 0 10px 0; */
+}
+
+.sidebar-section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    padding: 15px;
+    padding-top: 0;
+
+}
+    @media only screen and (min-width: 768px) {
+        .sidebar-section {
+            padding-left: 0px;
+            padding-top: 15px;
+        }
+    }
+
+
+
+  .sidebar-item {
+      /* position: absolute;  */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      /* padding-right: 15px; */
+  }
+
+
+
+
+
+  article {
+      /* background: #f1f1f1; */
+      /* border-radius: 12px; */
+      padding: 0px 0;
+  }
+
+
+  .title-section,
+  .content-section,
+  .sidebar-section {
+      /* background: #fff; */
+  }
+
+  .sidebar-section {
+    position: relative;
+}
+
+  .title-section {
+      /* padding: 0px 15px; */
+      margin-bottom: 0px;
+      border-radius: 10px;
+      position: relative;
+      text-align: left;
+  }
+
+  .title-section > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .title-section > hr {
+    margin: 0;
+  }
+
+  .sidebar-item {
+      /* text-align: center; */
+  }
+
+  .sidebar-item ul {
+    /* text-align: center; */
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    
+    /* font-size: 1em; */
+
+    border-radius: 5px;
+    border: thin solid #eee;
+    overflow: hidden;
+  }
+
+  .sidebar-item ul li {
+      
+      /* background-color: black;
+      border-bottom: solid 1px #eee; */
+      
+  } 
+
+
+  .sidebar-item ul li a {
+    display: block;
+    line-height: 40px;
+    padding: 0 17px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+
+    text-decoration: none;
+    
+}
+    .sidebar-item ul li a span {
+        float: right;
+    }
+
+  .sidebar-item ul li a:active {
+    background-color: #3594cb;
+    color: white;
+
+  }
+  
+
+@media screen and (max-width: 768px) {
+    .make-me-sticky {
+        padding: 0 15px 0 0;
+    }
+}
+
+.layout-footer {
+    background-color: rgb(50, 54, 63);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.footer-panel {
+    /* padding: 0 15px 15px 0; */
+}
+
+.footer-logo img {
+    width: 100%;
+    opacity: 0.03;
+}
+
+.layout-footer h3 {
+    color: white;
+    margin-top: 15px;
+}
+
+.layout-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.layout-footer ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(55, 59, 68);
+    margin-bottom: 1px;
+
+    cursor: pointer;
+}
+
+
+.layout-footer .btn-link {
+    color: white;
+}
+

@@ -1,0 +1,27 @@
+/* toolbar.css */
+.mpg-toolbar {
+    position: relative;
+    /* top: 7px;
+    right: 15px; */
+    text-align: right;
+    
+}
+
+.mpg-toolbar > * {
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
+
+.mpg-toolbar button.btn-link {
+    padding: 3px 5px;
+}
+
+.mpg-toolbar button .svg-inline--fa {
+    color: #888;
+}
+.mpg-toolbar button:hover .svg-inline--fa {
+    color: #555;
+}
+.mpg-toolbar button:active .svg-inline--fa {
+    color: #333;
+}

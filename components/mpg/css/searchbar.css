@@ -1,0 +1,12 @@
+.mpg-searchbar {
+    width: 100%;
+    border: thin solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+
+.mpg-panel > .mpg-searchbar {
+    margin-bottom: 0;
+}
+

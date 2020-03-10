@@ -1,0 +1,61 @@
+/* draganddrop.css */
+
+.graph-builder {
+    background-color: #00000080;
+    /* border: 1px solid #333; */
+}
+
+.graph-builder .graph {
+    background-color: #111114;
+    /* border: 1px solid #333; */
+}
+
+.graph-builder div {
+    background-color: #222;
+    /* border: 1px solid #333; */
+}
+
+.graph-builder .flex.row > div:not(:last-child) {
+    /* margin-right: 15px; */
+}
+.graph-builder .flex.column > div:not(:last-child) {
+    /* margin-bottom: 15px; */
+}
+
+.editor {
+
+}
+
+.canvas {
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+
+}
+
+.graph-builder .draggable {
+    cursor: grab;
+}
+
+.graph-builder .draggable.dragging {
+    cursor: grabbing;
+    background-color: rgba(0,128,0,0.5);
+}
+
+
+.graph-builder div.drop-target {
+    /* border: 2px dashed #555; */
+}
+.graph-builder div.drop-target.active {
+    /* border-color: yellow; */
+}
+
+.graph-builder div.status-entry {
+    font-size: 14px;
+    padding: 0;
+    border:none;
+    text-align: left;
+    font-weight: normal;
+}

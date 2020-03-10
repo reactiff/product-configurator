@@ -1,0 +1,44 @@
+.mpg-toggle {
+    padding-left: 0;
+    width: 3.75rem;
+}
+.mpg-toggle .custom-control-label {
+    line-height: 2.5rem;
+    cursor: pointer;
+}
+.mpg-toggle .custom-control-label::before {
+    top: .25rem;
+    /* left: 0; -4.2rem; */
+    left: 0;
+    width: 3.75rem;
+    height: 2rem;
+    content: "";
+    background-color: #aaa;
+    border: #adb5bd solid 1px;
+    border: none;
+    border-radius: 1rem;
+}
+.mpg-toggle .custom-control-label::after {
+    top: calc(.25rem + 2px);
+    /* left: calc(-4.25rem + 2px); */
+    left: 2px;
+    width: calc(2rem - 4px);
+    height: calc(2rem - 4px);
+    background-color: white;
+    border-radius: 1rem;
+}
+
+/* CHECKED STATE */
+
+.mpg-toggle .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    /* border-color: #007bff; */
+    border: none;    
+    background-color: #007bff;
+}
+
+.mpg-toggle .custom-control-input:checked~.custom-control-label::after {
+    background-color: #fff;
+    -webkit-transform: translateX(1.75rem);
+    transform: translateX(1.75rem);
+}

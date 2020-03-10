@@ -1,0 +1,73 @@
+/* flex.css */
+.mpg-flex {
+    /* position: relative; */
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    padding: 7px 8px 8px 7px;
+    margin-bottom: 15px;
+}
+
+/* .mpg-flex > div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    margin: 8px 7px 7px 8px;
+} */
+
+.mpg-flex.padded > *:not(:first-child) {
+    margin-left: 10px;
+}
+
+/* .mpg-flex.padded > *:last-child {
+    margin-right: 1rem;
+} */
+
+
+.mpg-flex.justify-content-center {
+    justify-content: center;
+}
+
+/* CHILD CLASSES */
+
+
+/* CONTAINER CLASSES */
+.mpg-flex.direction-row { flex-direction: row; }
+.mpg-flex.direction-row-reverse { flex-direction: row-reverse; }
+.mpg-flex.direction-column { flex-direction: column; }
+.mpg-flex.direction-column-reverse { flex-direction: column-reverse; }
+
+.mpg-flex.wrap-nowrap { flex-wrap: nowrap; }
+.mpg-flex.wrap-wrap { flex-wrap: wrap; }
+.mpg-flex.wrap-wrap-reverse { flex-wrap: wrap-reverse; }
+
+.mpg-flex.flow-row-nowrap { flex-flow: row nowrap; }
+.mpg-flex.flow-column-reverse { flex-flow: column-reverse; }
+.mpg-flex.flow-column-wrap { flex-flow: column wrap; }
+.mpg-flex.flow-row-reverse-wrap-reverse { flex-flow: row-reverse wrap-reverse; }
+
+.mpg-flex.justify-content-flex-start { justify-content: flex-start; }
+.mpg-flex.justify-content-flex-end { justify-content: flex-end; }
+.mpg-flex.justify-content-center { justify-content: center; }
+.mpg-flex.justify-content-space-between { justify-content: space-between; }
+.mpg-flex.justify-content-space-around { justify-content: space-around; }
+.mpg-flex.justify-content-space-evenly { justify-content: space-evenly; }
+
+.mpg-flex.align-items-flex-start { align-items: flex-start; }
+.mpg-flex.align-items-flex-end { align-items: flex-end; }
+.mpg-flex.align-items-center { align-items: center; }
+.mpg-flex.align-items-baseline { align-items: baseline; }
+.mpg-flex.align-items-stretch { align-items: stretch; }
+
+.mpg-flex.align-content-flex-start { align-content: flex-start; }
+.mpg-flex.align-content-flex-end { align-content: flex-end; }
+.mpg-flex.align-content-center { align-content: center; }
+.mpg-flex.align-content-space-between { align-content: space-between; }
+.mpg-flex.align-content-space-around { align-content: space-around; }
+.mpg-flex.align-content-space-evenly { align-content: space-evenly; }
+.mpg-flex.align-content-stretch { align-content: stretch; }
+
+

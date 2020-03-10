@@ -1,0 +1,24 @@
+/* stack.css */
+.mpg-stack {
+    position: relative;
+}
+
+.mpg-stack .stack-layer {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mpg-stack .stack-layer .stack-layer-item {
+    
+    position: absolute;
+
+    
+}
+
+
+
+

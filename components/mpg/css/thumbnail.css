@@ -1,0 +1,67 @@
+/* thumbnail.css */
+.mpg-thumbnail img {
+    /* border-radius: 50%; */
+    position: absolute;
+}
+
+.mpg-thumbnail .placeholder {
+    position: relative;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.mpg-thumbnail .placeholder svg {
+    position: absolute;
+    color: rgba(255,255,255,1);
+}
+/* 
+.mpg-thumbnail .placeholder svg.fa-1x {
+    left: calc(50% - 7px);
+    top: calc(50% - 8px);
+}
+
+.mpg-thumbnail .placeholder svg.fa-2x {
+    left: calc(50% - 14px);
+    top: calc(50% - 16px);
+}
+
+.mpg-thumbnail .placeholder svg.fa-3x {
+    left: calc(50% - 21px); 
+    top: calc(50% - 24px);
+}
+
+.mpg-thumbnail .placeholder svg.fa-4x {
+    left: calc(50% - 28px); 
+    top: calc(50% - 32px);
+}
+.mpg-thumbnail .placeholder svg.fa-5x {
+    left: calc(50% - 35px);
+    top: calc(50% - 40px);
+}
+
+.mpg-thumbnail .placeholder svg.fa-6x {
+    left: calc(50% - 42px); 
+    top: calc(50% - 48px);
+}
+
+.mpg-thumbnail .placeholder svg.fa-7x {
+    left: calc(50% - 49px); 
+    top: calc(50% - 56px);
+}
+
+.mpg-thumbnail .placeholder svg.fa-8x {
+    left: calc(50% - 56px); 
+    top: calc(50% - 64px);
+} */
+
+
+.mpg-thumbnail-upload-btn {
+    position: absolute;
+    top: calc(90% - 13px);
+    left: calc(50% - 7px);
+    opacity: 0.5;
+}
+
+.mpg-thumbnail-upload-btn:hover {
+    opacity: 1;
+}

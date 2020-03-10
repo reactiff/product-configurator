@@ -1,0 +1,17 @@
+/* tabs.css */
+.mpg-tabs .nav-pills {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+    .mpg-tabs .nav-pills {
+        justify-content: flex-start;    
+    }
+}
+
+.mpg-tabs .nav-pills .nav-link {
+    padding: 5px 5px; 
+    font-size: 0.875em;
+    margin: 0 1px 5px 1px;
+}

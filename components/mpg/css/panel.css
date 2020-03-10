@@ -1,0 +1,31 @@
+/* panel.css */
+.mpg-panel {
+    position: relative;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+
+    
+
+    /* border: thin solid transparent; */
+    /* border-radius: 5px; */
+    padding: 15px;
+
+    /* overflow: hidden; */
+
+    margin-bottom: 15px;
+
+    /* box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.8); */
+}
+
+.minimal {
+    min-height: 50vh;
+}
+
+.mpg-panel > p:last-child {
+    margin: 0;
+}
+

@@ -1,0 +1,13 @@
+.mpg-responsive-header.jumbo {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -18px;
+    padding: 15px;
+}
+
+.mpg-responsive-header .watermark {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

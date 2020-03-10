@@ -1,0 +1,43 @@
+/* radialspread.css */
+.mpg-radial-spread {
+    position: relative;
+}
+
+.mpg-radial-spread.debug .petal {
+    background-color: green;
+}
+
+
+.petal {
+    position: absolute;
+    width: 10px;
+    left: 50%;
+}
+
+.petal > .petal-item {
+    position: absolute;
+    line-height: 1;
+    left: -50%;
+    /* font-family: Teko; */
+}
+
+/* .petal > .petal-item > * {
+    
+} */
+
+/* top placement */
+.petal.top {
+    transform-origin: left bottom;
+}
+.petal.top > .petal-item {
+    top: 0;
+}
+
+/* bottom placement */
+.petal.bottom {
+    transform-origin: left top;
+}
+.petal.bottom > .petal-item {
+    bottom: 0;
+}
+

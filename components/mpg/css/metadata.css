@@ -1,0 +1,67 @@
+/* metadata.css */
+table {
+    border: thin solid #eee;
+    width: 100%;
+}
+
+table th {
+    padding: 1px 5px;
+    font-size: 75%;
+    font-weight: 700;
+}
+
+table td {
+    vertical-align: top;
+    width: 10%;
+    padding: 1px 5px;
+    
+}
+
+table td:nth-last-child(2) {
+    
+}
+
+table td:last-child {
+    
+}
+
+.parameter-name {
+    font-weight: 400;
+    font-size: 75%;
+}
+.parameter-type {
+    font-style: italic;
+    font-size: 75%;
+    width: 10%;
+}
+
+.parameter-description {
+    color: #888;
+    font-family: inherit;
+    font-size: 75%;
+    width: 40%;
+}
+.parameter-example {
+    color: #888;
+    font-family: inherit;
+    font-size: 75%;
+}
+
+.parameter-options {
+    width: 40%;
+}
+
+.parameter-options .badge {
+    cursor: pointer;
+    background-color: #eee;
+    margin: 0 5px 0 0;
+}
+
+.parameter-options .badge.selected {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.CodeMirror {
+    height: unset !important;
+}

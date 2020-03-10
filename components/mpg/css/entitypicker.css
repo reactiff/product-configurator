@@ -1,0 +1,10 @@
+.entity-picker-item {
+    cursor: pointer;
+    
+}
+
+.entity-picker-item:hover {
+    background-color: #ecf3ff;
+    border: none;
+    
+}

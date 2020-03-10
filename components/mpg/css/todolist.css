@@ -1,0 +1,144 @@
+.to-do .buttons button {
+    position: relative;
+    height: 26px;
+    margin-right: 1px;
+}
+
+.to-do .number {
+    margin-right: 10px;
+}
+.to-do .icon {
+    min-width: 25px;
+}
+.to-do .icon svg {
+    display: none;
+}
+.to-do:not(.complete).priority-high:not(.priority-top) .icon svg.high {
+    display: inline;
+    color: #007bff;
+}
+.to-do:not(.complete).priority-top .icon svg.top {
+    display: inline;
+    color: #007bff;
+}
+.to-do.complete .icon svg.check {
+    display: inline;
+    color: #bbb;
+}
+.to-do.priority-low .icon svg.low {
+    display: inline;
+    color: #aaa;
+}
+
+.to-do .text {
+    color: #333;
+    margin-right: 10px;
+}
+
+.to-do .buttons button svg {
+    position: absolute;
+    left: calc(50% - 5px);
+}
+
+.to-do .buttons button svg.edit {
+    left: 7px;
+    top: 5px;
+}
+
+.to-do .buttons button svg.up {
+    top: 7px;
+}
+.to-do .buttons button svg.dn {
+    top: 1px;
+}
+
+.to-do .buttons button svg.check {
+    left: 7px;
+    top: 5px;
+}
+.to-do .buttons button svg.delete {
+    left: 8px;
+    top: 6px;
+}
+
+
+
+.to-do.complete svg {
+    color: #bbb;
+}
+
+.to-do:not(.complete).priority-high.priority-top .text {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.to-do.priority-high .text {
+    /* font-weight: 600; */
+}
+
+
+.to-do.priority-low .text {
+    font-size: 75%;
+    color: #555;
+}
+
+.to-do.complete .text {
+    text-decoration: line-through;
+    color: #bbb;
+}
+
+.to-do.complete .buttons button svg {
+    color: #eee;
+}
+.to-do.complete .buttons button:hover svg {
+    color: #bbb;
+}
+
+.to-do.complete .buttons button.up{
+    display: none;
+}
+.to-do.complete .buttons button.dn{
+    display: none;
+}
+
+input.new-tag {
+    border: none;
+    font-size: 75%;
+}
+
+input.new-tag::placeholder {
+    color: #ccc;
+}
+
+.to-do .tags {
+    line-height: 1;
+}
+
+.to-do .tags button {
+    font-size: 75%;
+}
+.to-do .tags .tag {
+    font-size: 75%;
+    color: #007bff;
+    
+}
+
+.search-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: thin solid #ddd;
+}
+
+button.subpath {
+    margin-left: 3px;
+    padding: 0 5px;
+    line-height: 1;
+    height: 27px;
+}
+
+.item-path {
+    font-size: 75%;
+    color: #aaa;
+}

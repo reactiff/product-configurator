@@ -1,0 +1,29 @@
+.mpg-entity-editor .field-group {
+
+}
+
+.mpg-entity-editor .group-label {
+    
+}
+
+.mpg-entity-editor .group-field {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.mpg-entity-editor .group-field-label {
+    width: 30%;
+    text-align: right;
+    font-size: smaller;
+
+}
+
+.mpg-entity-editor .group-field-value {
+    border: thin solid rgba(128,128,128,0.3);
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.mpg-entity-editor .group-field-value p {
+    margin-bottom: 0;
+}
