@@ -1,0 +1,19 @@
+/* flex.css */
+
+.flex { display: flex; }
+.flex.row { flex-direction: row; }
+.flex.column { flex-direction: column; }
+.flex.wrap { flex-wrap: wrap; }
+.flex.nowrap { flex-wrap: nowrap; }
+.flex.justify.start:not(.self) { justify-content: flex-start; }
+.flex.justify.center:not(.self) { justify-content: flex-start; }
+.flex.justify.end:not(.self) { justify-content: flex-start; }
+.flex.align.start:not(.self) { align-content: flex-start; }
+.flex.align.center:not(.self) { justify-content: flex-start; }
+.flex.align.end:not(.self) { justify-content: flex-start; }
+.align.self.start { align-self: flex-start; }
+.align.self.center { align-self: center; }
+.align.self.end { align-self: flex-end; }
+.align.self.stretch { align-self: stretch; }
+.flex > .grow { flex-grow: 1; }
+.flex > .shrink { flex-shrink: 1; }
